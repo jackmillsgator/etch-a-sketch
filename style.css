@@ -1,10 +1,27 @@
 
+#big-contain
+{
+
+    display: flex;
+    justify-content: center;
+
+}
+
 #container-div
 {
 
 
     border-style: solid;
-    border-color: lime;
+    border-color: salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /*
+        Change these to change size of total grid width and height
+    */
+    width: 600px;
+    height: 600px;
 
 }
 
@@ -13,8 +30,33 @@
 
     display: flex;
     justify-content: center;
+    flex-grow: 1;
 
-    border-style: solid;
-    border-color: purple;
+    /*border-style: solid;
+    border-color: purple;*/
+
+}
+
+h1
+{
+
+    text-align: center;
+
+    /*border-style: solid;
+    border-color: orange;*/
+
+    margin: 20px 0px;
+
+}
+
+#top-button-div
+{
+
+    /*border-style: solid;
+    border-color: green;*/
+
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
 
 }
